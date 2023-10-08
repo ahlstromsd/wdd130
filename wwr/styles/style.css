@@ -1,0 +1,94 @@
+:root {
+
+    --primary-color: #6BAA75   ;
+    --secondary-color: #4A7B9D ;
+    --accent1-color: #26532B;
+    --accent2-color: #001427;
+    --heading-font: Skranji;
+    --paragraph-font: Caveat, sans-serif, Helvetica;
+    --headline-color-on-white: #001427;
+    --headline-color-on-color: #4A7B9D;
+    --paragraph-color-on-white: #26532B;
+    --paragraph-color-on-color: #6BAA75; 
+    --paragraph-background-color: #001427  ;
+    --nav-link-color: #4A7B9D;
+    --nav-background-color: #26553B;
+    --nav-hover-link-color: #6BAA75;
+    --nav-hover-background-color: #4A7B9D;
+  }
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+  background-color: var(--primary-color)
+}
+body {
+    background-color: var(--secondary-color); 
+}
+header {
+    background-color: var(--accent1-color);
+}
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--headline-color-on-color);
+}
+.book, .join {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-background-color);
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color: var(--nav-hover-link-color);
+    color: var(--headline-color-on-white);
+}
+.msg {
+    background-color: var(--paragraph-background-color);
+}
+footer {
+    background-color: var(--paragraph-color-on-white);
+    color: var(--nav-link-color);
+}
+nav a {
+    color: var(--paragraph-color-on-color);
+    text-decoration: none;
+}
+.home-title {
+    color: var(--accent2-color);
+}
+h4 {
+    color: var(--accent1-color);
+}
+.msg h2 {
+    color: var(--nav-hover-link-color);
+}
+.msg p {
+    color: var(--nav-link-color);
+}
+footer a {
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--headline-color-on-color);
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+} 
