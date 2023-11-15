@@ -118,6 +118,10 @@ main section img {
   opacity: .6;
   transform:scale(1.1);
 }
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
 .rivers-card {
   margin: 200px 0;
   grid-column: 2/4;
