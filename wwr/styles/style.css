@@ -196,12 +196,70 @@ footer .social img {
   padding-top: 5px;
   padding-left: 5px;
 }
-
-
-
-
-
-
+blog-grid {
+  display: grid;
+  grid-template-columns: 10 auto;
+  grid-template-rows: 10 auto;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: (10, 1fr);
+}
+.booking-card {
+  line-height: 1.5em;
+  padding: 35px;
+  background-color: #26532B;
+  box-shadow: 5px 5px 10px black;
+  grid-column: 2/7;
+  grid-row: 2/4;
+  margin: 200px 200px;
+}
+.booking-card h1 {
+  color: #001427;
+}
+.booking-card p {
+  font-size: .8em;
+  padding-bottom: 15px;
+  color:#4A7B9D
+}
+.highlights-card {
+  line-height: 1.5em;
+  padding: 35px;
+  background-color: #001427;
+  box-shadow: 5px 5px 10px black;
+  grid-column: 5/10;
+  grid-row: 5/7;
+  margin: 200px 200px;
+}
+.highlights-card h1 {
+color: #26532B;
+}
+.highlights-card p {
+  font-size: .8em;
+  padding-bottom: 15px;
+  color:#6BAA75
+}
+.encounters-card {
+  line-height: 1.5em;
+  padding: 35px;
+  background-color: #26532B;
+  box-shadow: 5px 5px 10px black;
+  grid-column: 2/7;
+  grid-row: 8/10;
+  margin: 200px 200px;
+}
+.encounters-card h1 {
+color: #001427;
+}
+.encounters-card h3 {
+color: #001427;
+}
+.encounters-card p {
+  font-size: .8em;
+  padding-bottom: 15px;
+  color:#4A7B9D
+}
 
 
 
